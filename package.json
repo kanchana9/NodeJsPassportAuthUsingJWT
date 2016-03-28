@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_passport_auth",
+  "version": "1.0.0",
+  "description": "Implementing local stratergy of Passport Authentication using JWT token",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanchana9/NodeJsPassportAuthUsingJWT.git"
+  },
+  "author": "Kanchana Challa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanchana9/NodeJsPassportAuthUsingJWT/issues"
+  },
+  "homepage": "https://github.com/kanchana9/NodeJsPassportAuthUsingJWT#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.9",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-localapikey": "0.0.3"
+  }
+}
